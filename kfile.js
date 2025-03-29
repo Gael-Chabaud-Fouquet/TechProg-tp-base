@@ -1,4 +1,4 @@
-let project = new Project('monprojet');
+let project = new Project('TP1_TechProg_Gael');
 
 project.kore = false;
 project.cmd = true;
@@ -18,6 +18,6 @@ project.setDebugDir('Deployment');
 const fs = require('fs');
 // Si jamais vous avez besoins d'ouvrir des fichiers avec votre executable(fopen) pour votre projet
 // copier les comme suit dans le dossier Deployment qui sera le dossier d'execution de votre projet:
-fs.copyFileSync(process.cwd()+'/assets/test.txt','./Deployment/test.txt');
+fs.copyFileSync(process.cwd()+'/assets/test.txt','./Deployment/test.txt','./Deployment/tp1_data.csv');
 
 resolve(project);
