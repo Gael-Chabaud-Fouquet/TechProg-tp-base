@@ -18,15 +18,15 @@ int monprojet_add(int a, int b);
 // Lorsqu'une fonction n'a pas de parametre, mettre void entre les parentheses.
 void monprojet_ditbonjour(void);
 
-void InventoryMain(Inventory);
+//void InventoryMain(Inventory);
 
-//void inventory_add(inventory);
+void inventory_add(inventory);
 
 void inventory_sort(inventory);
 
-//void inventory_remove(inventory);
+void inventory_remove(inventory);
 
-//void inventory_search_by_name(inventory);
+void inventory_search_by_name(inventory);
 
 void inventory_search_by_position(inventory);
 
